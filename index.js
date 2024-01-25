@@ -1,7 +1,8 @@
 const express = require("express");
 const { google } = require("googleapis");
+const cors = require("cors");
 const app = express();
-
+app.use(cors());
 // Middleware for parsing JSON in the request body
 app.use(express.json());
 
