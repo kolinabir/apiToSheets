@@ -1,5 +1,4 @@
 {
-  "files": ["./index.js", "./credentials.json"],
   "version": 2,
   "builds": [
     {
